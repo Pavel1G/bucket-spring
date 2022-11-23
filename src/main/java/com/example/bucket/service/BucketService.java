@@ -8,7 +8,7 @@ import org.springframework.web.context.annotation.SessionScope;
 import java.util.*;
 
 @Service
-//@Scope("session")
+@SessionScope
 //Session — является веб-скоупом. Новый объект создается на время существование сессии
 // и закрепляется за конкретным браузером. Все запросы с определенного браузера в течение определенного
 // промежутка времени будут работать с одним объектом.
